@@ -1,5 +1,7 @@
 # Normcore
 
+[![Build Status](https://travis-ci.org/pivotbio/normcore.svg?branch=master)](https://travis-ci.org/pivotbio/normcore)
+
 Simple library for sampling from random distributions
 
 - `Normcore::Normal` - Gaussian/normal distribution.
