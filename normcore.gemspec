@@ -6,7 +6,11 @@ Gem::Specification.new do |s|
   s.description = 'Generate random numbers from a Normal/Gaussian distribution'
   s.authors     = ['Austin Davis-Richardson']
   s.email       = 'harekrishna@gmail.com'
-  s.files       = Dir['./lib/*.rb']
+  s.files       = Dir['./lib/*.rb'] + ['bin/normcore']
+  s.executables = ['normcore']
+  s.extra_rdoc_files = [
+    'readme.md'
+  ]
   s.homepage    = 'https://github.com/pivotbio/normcore'
   s.license     = 'MIT'
 end

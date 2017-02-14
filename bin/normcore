@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+require File.expand_path(File.join(File.dirname(__FILE__), '..', 'lib', 'normcore'))
+
+μ, σ = Float(ARGV[0]), Float(ARGV[1])
+
+d = Normcore::Normal.new(μ, σ)
+
+loop do
+  begin
+    puts d.rng
+  rescue Errno::EPIPE
+    exit 0
+  end
+end
