@@ -2,7 +2,8 @@
 
 [![Build Status](https://travis-ci.org/pivotbio/normcore.svg?branch=master)](https://travis-ci.org/pivotbio/normcore)
 
-Simple library for sampling from random distributions
+Simple library for sampling from random distributions. Useful for testing /
+generating fake data.
 
 - `Normcore::Normal` - Gaussian/normal distribution.
 - `Normcore::LogNormal` - exp(Gaussian/normal) distribution.
