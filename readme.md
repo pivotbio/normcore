@@ -40,16 +40,16 @@ You can use Normcore as an executable:
 
 ```bash
 # produce an endless stream [defaults: μ = 0, σ = 1]
-normcore
+$ normcore
 
 # μ=100, σ=50
-normcore 100 50
+$ normcore 100 50
 ```
 
 Using [bashplotlib](https://github.com/glamp/bashplotlib):
 
 ```bash
-normcore 1 5 | head -n 10000 | hist
+$ normcore 1 5 | head -n 10000 | hist
 
  2177|        o
  2062|        oo
