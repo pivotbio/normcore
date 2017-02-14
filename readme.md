@@ -49,7 +49,7 @@ normcore 100 50
 Using [bashplotlib](https://github.com/glamp/bashplotlib):
 
 ```bash
-bin/normcore 1 5 | head -n 10000 |hist                                                                                 normcore
+normcore 1 5 | head -n 10000 | hist
 
  2177|        o
  2062|        oo
