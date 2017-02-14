@@ -39,7 +39,11 @@ You can use Normcore as an executable:
 
 
 ```bash
-normcore 0 1
+# produce an endless stream [defaults: μ = 0, σ = 1]
+normcore
+
+# μ=100, σ=50
+normcore 100 50
 ```
 
 Using [bashplotlib](https://github.com/glamp/bashplotlib):
