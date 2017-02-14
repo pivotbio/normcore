@@ -7,8 +7,21 @@ Simple library for sampling from random distributions
 - `Normcore::Normal` - Gaussian/normal distribution.
 - `Normcore::LogNormal` - exp(Gaussian/normal) distribution.
 
-## Usage
+## Installation
 
+RubyGems
+
+```bash
+gem install normcore
+```
+
+Bundler
+
+```ruby
+gem 'normcore'
+```
+
+## Usage
 
 ```ruby
 require 'normcore'
