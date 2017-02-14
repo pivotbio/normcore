@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'normcore'
-  s.version     = '0.0.2'
+  s.version     = '0.0.3'
   s.date        = '2017-02-12'
   s.summary     = 'Generate numbers from a normal distribution'
   s.description = 'Generate random numbers from a Normal/Gaussian distribution'
