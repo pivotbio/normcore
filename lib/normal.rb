@@ -2,7 +2,7 @@ module Normcore
   #
   # The normal a.k.a. Gaussian distribution
   #
-  # https://en.wikipedia.org/wiki/Box–μller_transform
+  # https://en.wikipedia.org/wiki/Box–Muller_transform
   #
   # Usage:
   #
@@ -21,7 +21,7 @@ module Normcore
     end
 
     #
-    # yield samples from gaussian distribution using the Box-μller transform
+    # yield samples from gaussian distribution using the Box-Muller transform
     #
     def rng
       box_muller
@@ -30,7 +30,7 @@ module Normcore
     private
 
     #
-    # Use the Box-μller transform to generate pairs of independent, standard,
+    # Use the Box-Muller transform to generate pairs of independent, standard,
     # normally distributed random numbers.
     #
     def box_muller
