@@ -1,8 +1,18 @@
 require 'spec_helper'
 
 describe Normcore::Normal do
+  let(:normcore) { Normcore::Normal.new 0, 1 }
+
   it 'can be created' do
     normal = Normcore::Normal.new 0, 1
+  end
+
+  it '#rng' do
+    expect(normcore.rng).to be_a(Float)
+  end
+
+  it '#rand' do
+    expect(normcore.rng).to be_a(Float)
   end
 
   (-5..5).each do |μ|
