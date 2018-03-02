@@ -32,6 +32,20 @@ d = Normcore::Normal.new(0, 1)
 
 # return an Array of 100 samples
 d.sample(100)
+
+# get a single random value
+d.rand
+
+# or
+d.rng
+```
+
+## FactoryBot
+
+```ruby
+FactoryBot.factory :measurement do
+  value { Normcore::Normal.new(0, 1).rand }
+end
 ```
 
 ## Bonus
