@@ -36,8 +36,7 @@ d.sample(100)
 
 ## Bonus
 
-You can use Normcore as an executable:
-
+You can use Normcore as a command-line executable:
 
 ```bash
 # produce an endless stream [defaults: μ = 0, σ = 1]
