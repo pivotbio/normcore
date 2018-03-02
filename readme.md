@@ -34,9 +34,6 @@ d = Normcore::Normal.new(0, 1)
 d.sample(100)
 
 # get a single random value
-d.rand
-
-# or
 d.rng
 ```
 
@@ -44,7 +41,7 @@ d.rng
 
 ```ruby
 FactoryBot.factory :measurement do
-  value { Normcore::Normal.new(0, 1).rand }
+  value { Normcore::Normal.new(0, 1).rng }
 end
 ```
 
