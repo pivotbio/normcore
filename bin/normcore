@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require File.expand_path(File.join(File.dirname(__FILE__), '..', 'lib', 'normcore'))
+require_relative '../lib/normcore'
 
 μ, σ = Float(ARGV[0] || 0), Float(ARGV[1] || 1)
 
